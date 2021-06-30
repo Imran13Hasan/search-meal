@@ -1,0 +1,30 @@
+.container-home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    background: whitesmoke;
+}
+.header-title{
+    font-size: 70px;
+    margin: 50px;
+}
+.search-field{
+    width: 25%;
+    padding: 13px 25px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: gray 4px 4px 19px -8px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.container-meal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
